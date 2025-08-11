@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Allow search engines to crawl important pages
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Block service worker and manifest from being indexed
+Disallow: /sw.js
+Disallow: /manifest.json
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
